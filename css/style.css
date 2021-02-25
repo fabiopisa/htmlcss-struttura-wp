@@ -13,6 +13,9 @@
 header, main, footer{
   width: 80%;
   margin: auto;
+}
+
+header, main{
   margin-top: 20px;
 }
 
@@ -59,4 +62,15 @@ main>.central{
   margin-right: 2%;
 }
 
+/* footer del sito */
+
+footer>section{
+  height: 40px;
+  background-color: #8801FE;
+}
+
+footer{
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
 
