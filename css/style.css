@@ -28,3 +28,35 @@ header>section{
   background-color:#E1D67A ;
   margin-top: 20px;
 }
+
+/* corpo del sito */
+main{
+  background-color:#0086FF ;
+}
+
+main>aside,
+main>.central{
+  float: left;
+  margin: 2% 0;
+}
+
+main>section{
+  height: 50px;
+  background-color: #ABCFE7;
+}
+
+main>aside{
+  height: 300px;
+  background-color: #ABCFE7;
+  width: 23%;
+}
+
+main>.central{
+  height: 300px;
+  background-color: #ABCFE7;
+  width: 50%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+
