@@ -20,13 +20,12 @@ header, main{
 }
 
 /* intestazione sito */
-
-header>nav{
+header .interaction{
   height: 100px;
   background-color:#E579E6 ;
 }
 
-header>section{
+header .banner{
   height: 300px;
   background-color:#E1D67A ;
   margin-top: 20px;
@@ -37,39 +36,37 @@ main{
   background-color:#0086FF ;
 }
 
-main>aside,
-main>.central{
+main .primal,
+main .central,
+main .last{
   float: left;
   margin: 2% 0;
 }
 
-main>section{
+main .title{
   height: 50px;
   background-color: #ABCFE7;
 }
 
-main>aside{
+main .primal,
+main .last{
   height: 300px;
   background-color: #ABCFE7;
-  width: 23%;
+  width: 20%;
 }
 
-main>.central{
+main .central{
   height: 300px;
   background-color: #ABCFE7;
-  width: 50%;
+  width: 56%;
   margin-left: 2%;
   margin-right: 2%;
 }
 
 /* footer del sito */
-
-footer>section{
+footer {
   height: 40px;
   background-color: #8801FE;
-}
-
-footer{
   margin-bottom: 20px;
   margin-top: 5px;
 }
